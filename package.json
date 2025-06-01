@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "concurrently \"next dev --turbo\" \"cd .. & cd ./backend & node --watch index\"",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.7.0",
